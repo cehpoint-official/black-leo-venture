@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  background-color: rgb(209 213 219);
+  
+}
+
+.tech{
+  font-family: "Montez", cursive;
+}
+
+details[open] summary {
+  color: #fb7c29;
+  text-decoration: underline;
+}
+
