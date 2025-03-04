@@ -86,7 +86,7 @@ const Accordions = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-[#2B2C7F] mb-2 border-b-2 border-[#4A4CB8] inline-block pb-1">
-                Funding Help Encuvation and Project Management Portal
+                Funding Help Incuvation and Project Management Portal
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 Our{" "}

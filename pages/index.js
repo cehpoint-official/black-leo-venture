@@ -45,13 +45,18 @@ export default function Home() {
         exit={{ opacity: 0 }}
         className="bg-gray-300 lg:h-[83vh]"
       >
-        <div className="lg:bg-center lg:bg-[url('/image/plant.webp')] bg-no-repeat bg-cover relative font-lato lg:h-[83vh]">
+        <div
+          className="lg:h-[83vh] bg-no-repeat bg-contain bg-right relative font-lato"
+          style={{
+            backgroundImage: "url('/image/plant-removebg.png')",
+          }}
+        >
           <div className="flex flex-col justify-center items-center lg:h-[80vh]">
-            <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6 container mx-auto px-4 md:px-0 mb-20 lg:mb-0 h-full ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 container mx-auto px-4 md:px-0 mb-20 lg:mb-0 h-full">
               <div className="flex flex-col lg:justify-end">
                 <div className="flex justify-center lg:hidden">
                   <img
-                    src="/image/camera-bg-remove.webp"
+                    src="/image/plant-removebg.png"
                     className="w-1/2"
                     alt=""
                   />
@@ -63,6 +68,7 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
+
       <Footer />
     </>
   );
