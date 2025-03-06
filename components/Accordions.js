@@ -91,7 +91,7 @@ const Accordions = () => {
               <p className="text-gray-700 leading-relaxed">
                 Our{" "}
                 <span className="font-medium italic">
-                  Funding Help Encuvation and Project Management Portal
+                  Funding Help Incubation and Project Management Portal
                 </span>{" "}
                 is a dynamic platform designed for both startups and IT
                 students. For entrepreneurs, it offers tools to build MVPs,
@@ -100,7 +100,7 @@ const Accordions = () => {
                 training hub featuring digital marketing, project management,
                 and development modules, paired with industrial project
                 experience. This dual-purpose portal fosters
-                “encuvation”—encouragement meets innovation—helping users manage
+                “Incubation”—encouragement meets innovation—helping users manage
                 projects seamlessly, secure funding, and gain practical skills
                 to succeed in the tech world.
               </p>
