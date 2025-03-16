@@ -13,7 +13,7 @@ export const getStaticProps = async () => {
 };
 
 const quikeyInbox = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="">
       <Layout>

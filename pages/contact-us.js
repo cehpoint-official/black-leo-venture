@@ -30,7 +30,7 @@ const Contact = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         setSubmitted(true);
         toast.success("Your message has been sent!");
       });

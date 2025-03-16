@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
 };
 
 const mudslideInbox = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="">
       <Layout>

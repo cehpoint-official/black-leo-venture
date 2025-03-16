@@ -138,6 +138,81 @@ const Accordions = () => {
           </p>
         </div>
       </details>
+      <details className="open:bg-accent open:text-black transition duration-300 ease-in-out select-none">
+        <summary className="bg-inherit px-5 py-3 text-[22px] cursor-pointer font-medium text-[#2B2C7F]">
+          Careers
+        </summary>
+        <div className="px-10 pb-4 bg-accent text-sm font-light text-gray-800">
+          <div className="space-y-3">
+            <div>
+              <h3 className="text-lg font-semibold text-[#2B2C7F] mb-1 border-b-2 border-[#4A4CB8] inline-block pb-1">
+                Join Our Team
+              </h3>
+              <p className="text-gray-700 mb-2">
+                Explore exciting opportunities in Sales, IT, and Web
+                Development.
+              </p>
+              <p className="text-gray-700 mb-4">
+                We are looking for passionate individuals to join our team and
+                contribute to innovative projects. Whether you are an
+                experienced professional or just starting, we have a place for
+                you. Collaborate, grow, and make a difference with us.
+              </p>
+              <ul className="text-gray-700 space-y-2">
+                <li>
+                  <span className="font-medium text-[#2B2C7F]">
+                    Sales/IT Specialist:
+                  </span>
+                  <span>
+                    {" "}
+                    Drive business growth through innovative IT and sales
+                    solutions.
+                  </span>
+                </li>
+                <li>
+                  <span className="font-medium text-[#2B2C7F]">
+                    Web Developer (WordPress):
+                  </span>
+                  <span>
+                    {" "}
+                    Build and maintain dynamic websites using WordPress.
+                  </span>
+                </li>
+                <li>
+                  <span className="font-medium text-[#2B2C7F]">
+                    Web Developer (MERN Stack):
+                  </span>
+                  <span>
+                    {" "}
+                    Design and develop full-stack applications using MongoDB,
+                    Express.js, React, and Node.js.
+                  </span>
+                </li>
+              </ul>
+              <p className="mt-2 font-semibold text-gray-700">
+                Freshers apply at{" "}
+                <a
+                  href="mailto:careers@blackleoventure.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  careers@blackleoventure.com
+                </a>
+                .
+              </p>
+              <p className="mt-2 font-semibold text-gray-700">
+                Experienced Candidate can Apply at{" "}
+                <a
+                  href="mailto:careers@blackleoventure.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  hr@blackleoventure.com
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </details>
     </motion.div>
   );
 };

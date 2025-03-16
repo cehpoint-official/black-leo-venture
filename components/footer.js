@@ -16,7 +16,7 @@ const Footer = () => {
             <p className="text-white mr-6">contact</p>
           </a>
           <p className="text-white mr-6">|</p>
-          <a href="https://blackleoventure.vercel.app" target="_blank">
+          <a href="/" target="_blank">
             <p className="text-white">Home</p>
           </a>
         </div>

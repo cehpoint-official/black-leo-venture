@@ -9,7 +9,7 @@ const Technology = () => {
       exit={{ opacity: 0 }}
       className="flex justify-center mb-4 lg:mb-0"
     >
-      <img src="/image/tech.png" className="w-4/5" alt="" />
+      <img src="/image/tech.png" alt="" />
     </motion.div>
   );
 };

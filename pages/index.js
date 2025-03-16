@@ -38,31 +38,59 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
         exit={{ opacity: 0 }}
-        className="bg-gray-300 bg-[url('/image/wall.png')] bg-cover bg-center bg-opacity-5 bg-no-repeat lg:h-[83vh]"
+        className="bg-[url('/image/wall.png')] bg-cover bg-center bg-no-repeat lg:h-[83vh]"
       >
-        <div className="lg:bg-right lg:bg-[url('/image/plant-removebg.png')] bg-no-repeat bg-contain relative font-lato lg:h-[83vh]">
+        <div className="lg:bg-center lg:bg-[url('/image/plant-transformed.png')] bg-no-repeat bg-cover relative font-lato lg:h-[83vh]">
           <div className="flex flex-col justify-center items-center lg:h-[80vh]">
             <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6 container mx-auto px-4 md:px-0 mb-20 lg:mb-0 h-full ">
               <div className="flex flex-col lg:justify-end">
-                {/* <div className="flex justify-center items-center lg:hidden">
+                <div className="flex justify-center lg:hidden">
                   <img
-                    src="/image/plant-removebg.png"
-                    className="w-full"
+                    src="/image/camera-bg-remove.webp"
+                    className="w-1/2"
                     alt=""
                   />
-                </div> */}
+                </div>
                 <Accordions />
               </div>
             </div>
             <Technology />
           </div>
         </div>
+      </motion.div> */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+        exit={{ opacity: 0 }}
+        className="bg-[url('/image/wall.png')] bg-cover bg-center bg-no-repeat min-h-screen"
+      >
+        <div className="lg:bg-center lg:bg-[url('/image/plant-transformed.png')] bg-no-repeat bg-cover relative font-lato min-h-screen">
+          <div className="flex flex-col justify-center items-center min-h-screen">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 container mx-auto px-4 md:px-0 mb-20 lg:mb-0">
+              <div className="flex flex-col lg:justify-end">
+                <div className="flex justify-center lg:hidden">
+                  <img
+                    src="/image/camera-bg-remove.webp"
+                    className="w-1/2"
+                    alt=""
+                  />
+                </div>
+                <Accordions />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-auto">
+          <Technology />
+        </div>
       </motion.div>
+
       <Footer />
     </>
   );
