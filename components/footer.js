@@ -1,27 +1,21 @@
-import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1, delay: 1 }}
-      exit={{ opacity: 0 }}
-      className="bg-[#2B2C7F] relative z-10"
-    >
+    <div className="bg-[#2B2C7F] relative z-10">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center py-4 lg:py-0 lg:h-[7vh]">
-        <p className="text-white py-0 lg:py-4">Black Leo Venture ©️ 2025</p>
+        <p className="text-white py-0 lg:py-4">Black Leo Venture © 2025</p>
         <div className="flex items-center justify-center">
-          <a href="/contact-us">
-            <p className="text-white mr-6">contact</p>
-          </a>
-          <p className="text-white mr-6">|</p>
-          <a href="/" target="_blank">
-            <p className="text-white">Home</p>
-          </a>
+          <Link href="/contact-us" className="text-white cursor-pointer">
+            Contact
+          </Link>
+          <p className="text-white mx-6">|</p>
+          <Link href="/" className="text-white cursor-pointer">
+            Home
+          </Link>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
